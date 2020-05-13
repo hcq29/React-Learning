@@ -8,6 +8,17 @@
 
 是Facebook在2013年5月推出的面向视图层的前端开发框架，可以解决大型应用的开发，也可以帮助程序员很好的管理DOM。
 
+## 知识点
+
+- 编写HelloWorld
+- JSX语法
+- 元素渲染
+- 组件和props（单页面运用，组件间传递数据）
+- React生命周期
+- 事件处理（绑定事件）
+- 条件渲染
+- 列表渲染
+
 ## 为什么要学习React？
 
 - 高效、灵活、组件化、Virtual DOM（与真实DOM相比）...
@@ -20,10 +31,12 @@
 - vue是MVVM框架（model view viewModel）
 - 处理
   - model： data（defineProperty GETTER/SETTER）、computed、vuex...
+    - **数据层，在new Vue的时候会指定一个data响应式状态，还会指定computed计算属性，还有可能拿Vuex存储一些公共状态，数据的改变会影响视图，因为在data中我们用defineProperty 做了一个GETTER/SETTER**
   - view： template、el、render...
-  - viewModel： vue用来监听数据和视图的改变，从而实现双向数据绑定
+    - **视图层主要是指定模板或者是el跟render**
+  - viewModel： **vue用来监听数据和视图的改变，从而实现双向数据绑定**
 
-# MVC
+## MVC
 
 MVC是一种代码的组织形式，
 
@@ -39,9 +52,6 @@ react相当于MVC中的V，因为它把所有要操作的数据跟操作都写�
 - 如果需要数据的更新，则需要自己在Controller中单独处理
 
 ![MVC](images/image-20200511123927282.png)
-
-开启react学习：[01-语法学习](./01-语法学习/)
-
 
 
 
