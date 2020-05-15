@@ -1,6 +1,6 @@
 # React 学习之路
 
-章节阅读：https://hcq29.github.io/React-Learning/
+章节阅读：[React章节学习](https://hcq29.github.io/React-Learning/01-语法学习/)
 
 # React介绍
 
