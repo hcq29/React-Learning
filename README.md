@@ -140,7 +140,9 @@ yarn add react react-dom --save
 <script src="node_modules/react-dom/umd/react-dom.development.js"></script>
 ```
 
-<img src="../../../../2020%25E5%25B9%25B4%25E5%25AF%2592%25E5%2581%2587%25E5%25AD%25A6%25E4%25B9%25A0/react/react%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/%25E8%25AE%25B2%25E8%25A7%25A3/images/image-20200513172338331.png" alt="image-20200513172338331" style="zoom: 67%;" /><img src="../../../../2020%25E5%25B9%25B4%25E5%25AF%2592%25E5%2581%2587%25E5%25AD%25A6%25E4%25B9%25A0/react/react%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0/%25E8%25AE%25B2%25E8%25A7%25A3/images/image-20200513172422108.png" alt="image-20200513172422108" style="zoom:50%;" />
+![image-20200513172338331](images/image-20200513172338331.png)![image-20200513172422108](images/image-20200513172422108.png)
+
+
 
 ### babel
 
