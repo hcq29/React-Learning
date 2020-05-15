@@ -1,4 +1,5 @@
-# JSX语法
+# 第一章节 语法学习
+## JSX语法
 
 将HTML代码插入JavaScript中
 
@@ -33,23 +34,23 @@ ReactDOM.render(
 - 执行速度更快
 - 定义虚拟DOM，更简单快捷编写模板
 
-# 基础知识
+## 基础知识
 
-## 编写Hello World
+### 编写Hello World
 
-### cdn
+#### cdn
 
 - https://unpkg.com/react@16/umd/react.development.js
 - https://unpkg.com/react-dom@16/umd/react-dom.development.js
 - https://unpkg.com/babel-standalone@6/babel.min.js
 
-### 基本语法
+#### 基本语法
 
 - ReactDOM.render()（渲染标签）
 - React.createElement()（创建元素，添加属性）
 - React.Component（创建组件，继承组件）
 
-### demo
+#### demo
 
 ```html
 <!DOCTYPE html>
@@ -85,7 +86,7 @@ yarn add react react-dom --save
 
 <img src="images/image-20200513172338331.png" alt="image-20200513172338331" style="zoom: 67%;" /><img src="images/image-20200513172422108.png" alt="image-20200513172422108" style="zoom:50%;" />
 
-### babel
+#### babel
 
 引入babel文件，将**ES5转化成ES6语法**，简化语法
 
@@ -100,4 +101,5 @@ yarn add react react-dom --save
     </script>
 </body>
 ```
-下一篇：[02-元素渲染](../02-元素渲染/)
+
+> 下一篇：[02-元素渲染](../02-元素渲染/)

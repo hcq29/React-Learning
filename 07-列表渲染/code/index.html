@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07-列表循环</title>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.js"></script>
+</head>
+
+<body>
+<div id="app"></div>
+<script type="text/babel">
+    class List extends React.Component{
+        state = {
+            list: [1,2,3,4,5]
+        }
+        render(){
+            const arr = this.state.list;
+            const listItiem = []
+            arr.map((item, index)=>{
+                let li = <li key={index}>{item}</li>
+                listItiem.push(li);
+            })
+            return <div>
+                <ul>
+                    {listItiem}
+                </ul>
+            </div>;
+        }
+    }
+    ReactDOM.render(
+        <List/>
+    , document.getElementById('app'));
+</script>
+</body>
+
+</html>

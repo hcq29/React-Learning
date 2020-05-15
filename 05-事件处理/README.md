@@ -1,4 +1,4 @@
-# 事件处理
+# 第五章节 事件处理
 
 将事件的this指向当前组件实例的三种方法：
 
@@ -71,4 +71,5 @@ ReactDOM.render(
 ```javascript
 <button onClick={this.click.bind(this)}>点击</button>
 ```
-上一篇：[04-react生命周期](../04-react生命周期/)
+> 上一篇：[04-react生命周期](../04-react生命周期/)
+> 下一篇：[06-条件处理](../06-条件处理/)
