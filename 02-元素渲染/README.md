@@ -8,13 +8,13 @@ react是一个MVC框架，当模型改变以后会渲染视图，当视图放生
 <div id="app"></div>
 <script type="text/babel">
     function tick() {
-    	var time = new Date().toLocaleTimeString();
-    	var ele = <div>
-    		<h2>{time}</h2>
-    	</div>;
-    	ReactDOM.render(ele, document.getElementById('app'));
-    }
-    setInterval(tick, 1000);
+		var time = new Date().toLocaleTimeString();
+		var ele = <div>
+			<h2>现在时间是：{time}</h2>
+		</div>;
+		ReactDOM.render(ele, document.getElementById('app'));
+	}
+	setInterval(tick, 1000);
 </script>
 ```
 

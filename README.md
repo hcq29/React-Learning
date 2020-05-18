@@ -174,7 +174,7 @@ react是一个MVC框架，当模型改变以后会渲染视图，当视图放生
     function tick() {
     	var time = new Date().toLocaleTimeString();
     	var ele = <div>
-    		<h2>{time}</h2>
+    		<h2>现在时间是：{time}</h2>
     	</div>;
     	ReactDOM.render(ele, document.getElementById('app'));
     }
@@ -601,23 +601,23 @@ my-app
 >```
 >
 >- 语言
->  - language:javascript
+>    - language:javascript
 >
 >- 项目名：
->  - in:name react
+>    - in:name react
 >
 >- 项目描述
->  - in:deacription 爬虫
+>    - in:deacription 爬虫
 >
 >- README
->  - in:readme react
+>    - in:readme react
 >
 >- star数
->  - stars:>3000
+>    - stars:>3000
 >
 >- fork
->  - fork:>1500
+>    - fork:>1500
 >
 >- 更新日期
->  - pushed:>2020-03-01
+>    - pushed:>2020-03-01
 >
